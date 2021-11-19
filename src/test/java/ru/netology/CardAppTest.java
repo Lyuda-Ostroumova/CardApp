@@ -48,7 +48,7 @@ public class CardAppTest {
         form.findElement(By.className("button")).click();
         String text = driver.findElement(By.cssSelector(".paragraph")).getText();
 
-        assertEquals("Ваша заявка успешно отправлена!", text.trim());
+        assertEquals("Ваша заявка отправлена!", text.trim());
 
     }
 }
